@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/bp/Projects/Xcode/simplenet/listInterfaces/ListInterfaces.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EchoClient/EchoClient.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EchoServer/EchoServer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Transceiver/Transceiver.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Interfaces/Interfaces.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Sockets/Sockets.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+</Workspace>
