@@ -1,10 +1,11 @@
 //
 //  main.swift
-//  listInterfaces
+//  ListInterfaces
 //
 //  Created by bp on 2018-04-26.
 //  Copyright © 2018 Vladimir Raisov. All rights reserved.
 //
+//  Demo of Interfaces API
 
 import Sockets
 import Interfaces
