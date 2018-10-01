@@ -143,7 +143,7 @@ Thus the `Datagram` contains all necessary information to send the reply. This s
 
 ## Getting started guide
 
-After you clone or download Simplenet, simplenet.xcworkspace will be found in the created directory. This workspace contains projects to build libTransceiver, libInterfaces and libSockets static libraries. You can add your own project to this workspace, link it with the libraries, and use the provided APIs. Naturally you can simply add source code to your own project or use the modules in any other desired way. In addition the workspace contains the examples of the command line EchoServer and EchoClient, as well as listInterfaces program demonstrating what information can be received with `Interfaces` module.
+After you clone or download Simplenet to your directory, simplenet.xcworkspace will be found there. This workspace contains projects to build libTransceiver, libInterfaces and libSockets static libraries. You can add your own project to this workspace, link it with the libraries, and use the provided APIs. Naturally you can simply add source code to your own project or use the modules in any other desired way. In addition the workspace contains the examples of the command line EchoServer and EchoClient, as well as listInterfaces program demonstrating what information can be received with `Interfaces` module.
 
 The comments of each module contain its API documentation.
 
