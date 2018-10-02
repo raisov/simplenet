@@ -23,7 +23,7 @@ In general, Simplenet can be useful in any application, where you need asynchron
 
 ### Receiving and transmitting data
 
-`Transceiver` module contains `Datagram` structure representing data received from socket. Although this structure can be created on its own the preferred way is to use `Receiver` and `Transmitter` classes.
+`Transceiver` module contains `Datagram` structure representing data received from socket. Although this structure can be created on its own the preferred way is to use `Receiver` and `Transmitter`  to produce it.
 
 These classes perform asynchronous network operations using GCD (libdispatch). Here are some fragments of echo server and client programs using these classes. Error handling is omitted for simplicity.
 
@@ -132,7 +132,7 @@ It should be noted that not all available interfaces are listed in `System Prefe
 In addition to `data` property and `reply` method shown in the examples above, the `Datagram` structure has the following properties:
 
 - `sender: InternetAddress?` containing IP and port the datagram was sent from;
-- `destination: IPAddress?, may be unicast, multicast or broadcast destination address;
+- `destination: IPAddress?`, may be unicast, multicast or broadcast destination address;
 - `interface: Interface?` specifies the interface over which datagram was received. 
 
 `InternetAddress` and `IPAddress` are the protocols defined in Sockets module. Their purpose is to unify working with IPv4 and IPv6 addresses. 
